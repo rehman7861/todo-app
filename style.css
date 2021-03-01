@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #e2e3e7;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .box {
+    padding: 30px;
+    /* border-radius: 10px; */
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    background: #e2e3e7;
+    box-shadow: inset 5px 5px 10px #c5c5c9, inset -5px -5px 10px #ffffff;
+  }
+  
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    margin: 50px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  
+  /* User Input */
+  input {
+    height: 40px;
+    width: 500px;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: #e2e3e7;
+    box-shadow: inset 5px 5px 10px #c5c5c9, inset -5px -5px 10px #ffffff;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  /* Add Item Button */
+  #addItemBtn {
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    background: #e2e3e7;
+    box-shadow: 5px 5px 10px #c5c5c9, -5px -5px 10px #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: green;
+  }
+  
+  #addItemBtn:active {
+    background: #e2e3e7;
+    box-shadow: inset 5px 5px 10px #c5c5c9, inset -5px -5px 10px #ffffff;
+  }
+  
+  /* Unorder List */
+  ul {
+    list-style: none;
+  }
+  
+  /* Create Element Div Container Js */
+  .todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: arial;
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background: #e2e3e7;
+    box-shadow: 5px 5px 10px #c5c5c9, -5px -5px 10px #ffffff;
+  }
+  
+  /* Create Element li Js */
+  .todo-item {
+    flex: 1;
+  }
+  
+  /* Create Element Button Js Font Awesome i */
+  .complete-btn {
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  /* Create Element P Js for Date */
+  .todo-date {
+    font-size: 12px;
+    font-style: italic;
+    margin-right: 15px;
+  }
+  
+  i {
+    margin-left: 13px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .fa-check-circle {
+    color: black;
+  }
+  
+  .fa-edit {
+    color: blue;
+  }
+  
+  .fa-trash-alt {
+    color: red;
+  }
+  
+  .doneItems {
+    text-decoration: line-through;
+  }
+  
+  .greenTick {
+    color: green;
+  }
+  
